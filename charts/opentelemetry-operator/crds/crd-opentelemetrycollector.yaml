@@ -334,6 +334,10 @@ spec:
                       x-kubernetes-map-type: atomic
                   type: object
                 type: array
+              priorityClassName:
+                description: PriorityClassName indicates the priority class name to
+                  assign on the OpenTelemetry Collector.
+                type: string
               hostNetwork:
                 description: HostNetwork indicates if the pod should run in the host
                   networking namespace.
