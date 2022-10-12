@@ -11,6 +11,10 @@ nameOverride: ""
 ## Reference one or more secrets to be used when pulling images from authenticated repositories.
 imagePullSecrets: []
 
+## Provide a priority class name in which to run the optentelemtry-operator as.
+##
+priorityClassName: ""
+
 ## Provide OpenTelemetry Operator manager container image and resources.
 ##
 manager:
